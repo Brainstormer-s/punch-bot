@@ -44,7 +44,7 @@ def box_Office (update, context):
     return HOME
 
 def main():
-    updater = Updater("1075908104:AAExQ1IsqcmP99py-U7h2dU_KJTNf-Mjzvs", use_context=True)
+    updater = Updater("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", use_context=True)
     dp = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', home)],
