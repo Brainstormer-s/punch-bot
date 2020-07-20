@@ -44,7 +44,7 @@ def box_Office (update, context):
     return HOME
 
 def main():
-    updater = Updater("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", use_context=True)
+    updater = Updater("YOUR BOT TOKEN FROM BOTFATHER", use_context=True)
     dp = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', home)],
